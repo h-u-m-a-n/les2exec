@@ -18,7 +18,9 @@ func main() {
 	showFindRootsResult(r1,r2,ok)
 	r1,r2,ok = les2lib.FindRoots(9,-12,4)
 	showFindRootsResult(r1,r2,ok)
-
+	
+	// 1.0.2
+	fmt.Println(les2lib.GetUUID())
 }
 
 func showFindRootsResult(r1, r2 float64, ok error) {
